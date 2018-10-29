@@ -1,46 +1,6 @@
 
 ---
 
-- name: WACV
-  year: 2019
-  id: wacv19
-  link: http://wacv19.uccs.us/
-  deadline: "2018-09-21 23:59:59"
-  timezone: America/Los_Angeles
-  date: January 8-11, 2019
-  place: Waikoloa Village, Hawaii
-  sub: CV
-
-- name: ICLR
-  year: 2019
-  id: iclr19
-  link: http://iclr.cc/
-  deadline: "2018-09-27 17:59:59"
-  timezone: America/New_York
-  date: May 6-9, 2019
-  place: New Orleans, Louisiana, US
-  sub: ML
-
-- name: AES
-  year: 2019
-  id: aes2019
-  link: http://www.aes.org/conferences/2019/immersive/
-  deadline: "2018-10-01 23:59:59"
-  timezone: Etc/GMT
-  date: March 27-29, 2019
-  place: York, UK
-  sub: SP
-
-- name: AISTATS
-  year: 2019
-  id: aistats19
-  link: https://www.aistats.org/
-  deadline: "2018-10-04 23:59:59"
-  timezone: America/Los_Angeles
-  date: April 16-18, 2019
-  place: Naha, Okinawa, Japan
-  sub: ML
-
 - name: ICASSP
   year: 2019
   id: icassp2019
@@ -50,6 +10,16 @@
   date: May 12-17, 2019
   place: Brighton, UK
   sub: SP
+
+- name: AAMAS
+  year: 2019
+  id: aamas19
+  link: http://aamas2019.encs.concordia.ca/
+  deadline: "2018-11-16 23:59:59"
+  timezone: Etc/GMT
+  date: May 13-17, 2019
+  place: Montreal, Canada
+  sub: ML
 
 - name: CVPR
   year: 2019
@@ -71,6 +41,36 @@
   place: Minneapolis, USA
   sub: NLP
 
+- name: ICML
+  year: 2019
+  id: icml19
+  link: https://icml.cc/Conferences/2019
+  deadline: "2019-01-23 15:59:00"
+  timezone: America/Los_Angeles
+  date: June 10-15, 2019
+  place: Long Beach Convention Center, Long Beach, USA
+  sub: ML
+
+- name: COLT
+  year: 2019
+  id: colt19
+  link: http://www.learningtheory.org/colt2019/
+  deadline: "2019-02-01 23:00:00"
+  timezone: America/New_York
+  date: June 25-28, 2019
+  place: Phoenix, AZ
+  sub: ML
+
+- name: RSS
+  year: 2019
+  id: rss19
+  link: http://www.roboticsconference.org/
+  deadline: "2019-02-01 23:59:00"
+  timezone: America/Los_Angeles
+  date: June 22-26, 2019
+  place: Freiburg, Germany
+  sub: RO
+
 - name: IJCAI
   year: 2019
   id: ijcai19
@@ -91,134 +91,24 @@
   place: Macau, China
   sub: RO
 
-- name: ICML
-  year: 2019
-  id: icml19
-  link: https://icml.cc/Conferences/2019
-  deadline: TBA
-  timezone: TBA
-  date: June 10-15, 2019
-  place: Long Beach Convention Center, Long Beach, USA
-  sub: ML
-
 - name: ACL
   year: 2019
   id: acl19
   link: http://acl2019.org/
-  deadline: TBA
+  deadline: "2019-03-04 23:59:00"
   timezone: Etc/GMT+12
   date: July 28-August 2, 2019
   place: Florence, Italy
   sub: NLP
 
-- name: AAMAS
-  year: 2018
-  id: aamas18
-  link: http://celweb.vuse.vanderbilt.edu/aamas18
-  deadline: "2017-11-14 23:59:00"
-  timezone: Etc/GMT+12
-  date: July 11-13, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: SIGGRAPH
-  year: 2018
-  id: siggraph18
-  link: http://s2018.siggraph.org/
-  deadline: "2018-01-23 21:59:59"
-  timezone: GMT
-  date: August 12-16, 2018
-  place: Vancouver, Canada
-  sub: CV
-
-- name: RSS
-  year: 2018
-  id: rss18
-  link: http://www.roboticsconference.org/
-  deadline: "2018-02-01 23:59:59"
-  timezone: Etc/GMT+12
-  date: June 26-30, 2018
-  place: Pittsburgh, Pennsylvania, USA
-  sub: RO
-
-- name: ICML
-  year: 2018
-  id: icml18
-  link: https://icml.cc/Conferences/2018
-  deadline: "2018-02-09 18:59:59"
-  timezone: EST
-  date: July 10-15, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: KDD
-  year: 2018
-  id: kdd18
-  link: http://www.kdd.org/kdd2018/
-  deadline: "2018-02-11 23:59:59"
-  timezone: America/Los_Angeles
-  date: August 19-23, 2018
-  place: London, United Kingdom
-  sub: ML
-
-- name: COLT
-  year: 2018
-  id: colt18
-  link: http://www.learningtheory.org/colt2018/
-  deadline: "2018-02-16 22:59:59"
-  timezone: EST
-  date: July 5-9, 2018
-  place: Stockholm, Sweden
-  sub: ML
-
-- name: UAI
-  year: 2018
-  id: uai18
-  link: http://auai.org/uai2018/index.php
-  deadline: "2018-03-09 23:59:59"
-  timezone: Etc/GMT+11
-  date: August 06-10, 2018
-  place: Monterey, California, USA
-  sub: ML
-
-- name: ECCV
-  year: 2018
-  id: eccv18
-  link: https://eccv2018.org/
-  deadline: "2018-03-14 15:59:00"
-  timezone: America/Los_Angeles
-  date: September 8-14, 2018
-  place: Munich, Germany
-  sub: CV
-
-- name: COLING
-  year: 2018
-  id: coling18
-  link: http://coling2018.org/
-  deadline: "2018-03-16 23:59:59"
-  timezone: America/Adak
-  date: August 20-25, 2018
-  place: Santa Fe, New Mexico, USA
-  sub: NLP
-
-- name: Interspeech
-  year: 2018
-  id: interspeech18
-  link: http://interspeech2018.org/
-  deadline: "2018-03-23 23:59:59"
+- name: ICCV
+  year: 2019
+  id: iccv19
+  link: http://iccv2019.thecvf.com/
+  deadline: "2019-03-22 23:59:00"
   timezone: Etc/GMT
-  date: September 2-6, 2018
-  place: Hyderabad, India
-  sub: SP
-
-- name: BMVC
-  year: 2018
-  id: bmvc2018
-  link: http://bmvc2018.org/
-  deadline: "2018-05-07 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 03-06, 2018
-  place: Newcastle upon Tyne
+  date: October 27 - November 3, 2019
+  place: Seoul, Korea
   sub: CV
 
 - name: NIPS
@@ -290,3 +180,43 @@
   date: May 20-24, 2019
   place: Montreal, Canada
   sub: RO
+
+- name: WACV
+  year: 2019
+  id: wacv19
+  link: http://wacv19.uccs.us/
+  deadline: "2018-09-21 23:59:59"
+  timezone: America/Los_Angeles
+  date: January 8-11, 2019
+  place: Waikoloa Village, Hawaii
+  sub: CV
+
+- name: ICLR
+  year: 2019
+  id: iclr19
+  link: http://iclr.cc/
+  deadline: "2018-09-27 17:59:59"
+  timezone: America/New_York
+  date: May 6-9, 2019
+  place: New Orleans, Louisiana, US
+  sub: ML
+
+- name: AES
+  year: 2019
+  id: aes2019
+  link: http://www.aes.org/conferences/2019/immersive/
+  deadline: "2018-10-01 23:59:59"
+  timezone: Etc/GMT
+  date: March 27-29, 2019
+  place: York, UK
+  sub: SP
+
+- name: AISTATS
+  year: 2019
+  id: aistats19
+  link: https://www.aistats.org/
+  deadline: "2018-10-04 23:59:59"
+  timezone: America/Los_Angeles
+  date: April 16-18, 2019
+  place: Naha, Okinawa, Japan
+  sub: ML
